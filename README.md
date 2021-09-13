@@ -1,5 +1,7 @@
 # @keqingrong/hooks (WIP)
 
+[![npm version](https://img.shields.io/npm/v/@keqingrong/hooks.svg)](https://www.npmjs.com/package/@keqingrong/hooks)
+
 Collection of React Hooks
 
 ## Installation
