@@ -1,6 +1,6 @@
 # @keqingrong/hooks (WIP)
 
-Some React hooks
+Collection of React Hooks
 
 ## Installation
 
@@ -14,6 +14,8 @@ yarn add @keqingrong/hooks
 
 ## Usage
 
+### Use query string parameters
+
 ```tsx
 import { useQueryParams } from '@keqingrong/hooks';
 
@@ -22,6 +24,8 @@ function App() {
   return <div>App</div>;
 }
 ```
+
+### Check whether element has scrollbars
 
 ```tsx
 import { useHasScrollbar } from '@keqingrong/hooks';
@@ -46,7 +50,8 @@ function App() {
 - `useFixInputFocusScroll()`
 - `useHasScrollbar()`
 - `useMutationObserver()`
-- `useQueryParams()`
+- `useQueryParams(opts)`
+  - `opts.mode`: `'auto'|'std'|'hash'|'mixed'`
 
 ## License
 
