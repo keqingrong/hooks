@@ -1,7 +1,7 @@
 {
   "name": "@keqingrong/hooks",
   "version": "0.1.0",
-  "description": "Some React hooks",
+  "description": "Collection of React Hooks",
   "author": "Qingrong Ke <keqingrong@outlook.com> (https://keqingrong.github.io/)",
   "license": "MIT",
   "repository": {
@@ -12,8 +12,7 @@
   "module": "dist/hooks.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "sideEffects": false,
   "keywords": [
@@ -28,7 +27,7 @@
     "build": "tsdx build --format cjs,esm,umd",
     "serve": "npx serve public",
     "test": "tsdx test --testPathIgnorePatterns example",
-    "lint": "tsdx lint src test types",
+    "lint": "tsdx lint src test",
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why"
